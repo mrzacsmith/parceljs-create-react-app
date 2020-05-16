@@ -1,5 +1,11 @@
 ## Create a react app from scratch
 
+### Branchs
+
+- master ~ README instructions
+- create ~ basic react app as shown in video
+- make-app ~ includes App.js
+
 ### STEPS
 
 - create project directory `mkdir project`
@@ -14,12 +20,10 @@
 
   - in package.json script `"start": "parcel index.html"`
   - `!` in index.html to create template
-    - `<script src='index.html' defer></script>`
+    - `<script src='index.js' defer></script>`
     - create `<div id='root'></div>`
   - in styles.scss
-    - {
-      box-sizing: border-box;
-      }
+    - `{ box-sizing: border-box; }`
   - add react to index.js using script below
   - add scss to index.js `import './styles.scss'`
   - run start script `npm start`
