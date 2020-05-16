@@ -1,0 +1,28 @@
+{
+  "name": "create-react-app-scratch",
+  "version": "1.0.0",
+  "description": "### STEPS",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzacsmith/parceljs-create-react-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrzacsmith/parceljs-create-react-app/issues"
+  },
+  "homepage": "https://github.com/mrzacsmith/parceljs-create-react-app#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
+  }
+}
