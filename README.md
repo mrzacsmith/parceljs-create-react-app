@@ -23,16 +23,17 @@
   - add react to index.js using script below
   - add scss to index.js `import './styles.scss'`
   - run start script `npm start`
-  - ```js
-    import React from "react";
-    import { render } from "react-dom";
 
-    function HelloWorld(props) {
-      return <div>Hello World</div>;
-    }
+  ```js
+  import React from "react";
+  import { render } from "react-dom";
 
-    render(<HelloWorld />, document.querySelector("#root"));
-    ```
+  function HelloWorld(props) {
+    return <div>Hello World</div>;
+  }
+
+  render(<HelloWorld />, document.querySelector("#root"));
+  ```
 
 #### References
 
