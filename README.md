@@ -20,7 +20,9 @@
     - {
       box-sizing: border-box;
       }
-  - add react to index.js
+  - add react to index.js using script below
+  - add scss to index.js `import './styles.scss'`
+  - run start script `npm start`
   - ```js
     import React from "react";
     import { render } from "react-dom";
@@ -31,11 +33,6 @@
 
     render(<HelloWorld />, document.querySelector("#root"));
     ```
-
-  ```
-  - add scss to index.js `import './styles.scss'`
-  - run start script `npm start`
-  ```
 
 #### References
 
