@@ -11,15 +11,31 @@
 - `npm i -D parcel-bundler`
 - `touch index.html index.js styles.scss`
 - open in editor
+
   - in package.json script `"start": "parcel index.html"`
   - `!` in index.html to create template
-  - `<script src='index.html' defer></script>`
+    - `<script src='index.html' defer></script>`
+    - create `<div id='root'></div>`
   - in styles.scss
-    '''css
     - {
       box-sizing: border-box;
       }
-      '''
+  - add react to index.js
+  - ```js
+    import React from "react";
+    import { render } from "react-dom";
+
+    function HelloWorld(props) {
+      return <div>Hello World</div>;
+    }
+
+    render(<HelloWorld />, document.querySelector("#root"));
+    ```
+
+  ```
+  - add scss to index.js `import './styles.scss'`
+  - run start script `npm start`
+  ```
 
 #### References
 
