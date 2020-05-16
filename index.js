@@ -1,9 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import App from "./App.js";
 import "./styles.scss";
 
-function HelloWorld(props) {
-  return <div>Hello World</div>;
-}
-
-render(<HelloWorld />, document.querySelector("#root"));
+render(<App />, document.querySelector("#root"));
